@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/foregroundSecond" android:state_selected="true">
+        <shape>
+            <solid android:color="@color/backgroundItem"/>
+            <stroke android:width="2dp" android:color="@color/colorPrimaryDark"></stroke>
+            <corners android:radius="5.0dip" />
+        </shape>
+    </item>
+    <item android:drawable="@color/foregroundSecond" android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/backgroundItem"/>
+            <stroke android:width="2dp" android:color="@color/foregroundSecond"></stroke>
+            <corners android:radius="5.0dip" />
+        </shape>
+    </item>
+    <item android:drawable="@color/backgroundItem">
+        <shape>
+            <solid android:color="@color/backgroundItem"/>
+            <stroke android:width="2dp" android:color="@color/colorPrimaryDark"></stroke>
+            <corners android:radius="5.0dip" />
+        </shape>
+    </item>
+
+</selector>
